@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+}
+footer {
+	display : table-row;
+	height: 100px; /* à titre d'exemple */
+    background-color: #F3F3F3;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#headerLinks
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-decoration-color:rgba(0,0,0,0.50);
+	background-color: rgba(246,248,249,1.00);
+}
+
+#hLinks
+{
+	text-align: right;
+}
+
+#headerLinks:active
+{
+	text-decoration-color:#000000;
+}
+
+#headerLogo
+{
+	text-align: left;
+}
+
+#headerLogoimg
+{
+	height: 50px;
+	width: 120px;
+}
+
+
+#photoslideHome
+{
+    width: 825px;
+}
+
+#SectionArticle
+{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#SectionCaisseNeuve
+{
+    
+}
+
+
+div#colonne1 {
+	float: left;
+	width: 33.33%;
+    background-color: #F3F3F3;
+}
+
+div#colonne2 {
+    padding-left: 20px;
+	float: left;
+	width: 33.33%;
+    background-color: #F3F3F3;
+}
+
+
+div#colonne3 {
+	float: right;
+	width: 33.33%;
+    background-color: #F3F3F3;
+}
+
+
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: center;
+  animation: 20s slidy infinite;
+}
+
+div#slider figure img { width: 20%; height: auto; float: left; }
+
+div#slider { width: 80%; max-width: 1000px; overflow: hidden }
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+#newcaisse
+{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+#newcaisse_1
+{
+    padding-left: 40px;
+}
+
+.flotte
+{
+    float:left;
+}
